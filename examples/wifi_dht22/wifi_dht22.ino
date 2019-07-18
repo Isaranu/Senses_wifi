@@ -41,10 +41,10 @@ void loop(){
   Serial.println("Humidity is " + String(h) + " %RH");
   Serial.println("----------------------------------------");
   
-  response = myiot.send(1,t);
+  response = myiot.send(1,t); /* myiot.send(slotnumber, data) */
   Serial.println(response);
 
-  response = myiot.send(2,h);
+  response = myiot.send(2,h); /* myiot.send(slotnumber, data) */
   Serial.println(response);
 
   delay(5000);
