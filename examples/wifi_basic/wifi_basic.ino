@@ -1,9 +1,9 @@
 #include "Senses_wifi.h"
 
-const char *ssid = "wlan-secure";
-const char *passw = "4502160000";
-const char *userid = "1";
-const char *key = "2ns041o87zkz";
+const char *ssid = "your-wifi-network-name";
+const char *passw = "your-wifi-password";
+const char *userid = "your-senses-user-id";
+const char *key = "your-device-key";
 
 String response;
 int slot_number = 1;
