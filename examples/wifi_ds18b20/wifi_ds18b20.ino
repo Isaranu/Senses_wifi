@@ -33,7 +33,7 @@ void loop(){
   t = sensors.getTempCByIndex(0);
   Serial.println("t = " + String(t));
   
-  response = myiot.send(1,t);
+  response = myiot.send(1,t); /* myiot.send(slotnumber, data) */
   Serial.println(response);
 
   delay(10000);
