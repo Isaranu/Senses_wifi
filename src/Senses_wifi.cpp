@@ -1,6 +1,6 @@
 #include "Senses_wifi.h"
 
-#define SENSES_HOST "senses.logisenses.com"
+#define SENSES_HOST "www.sensesiot.com"
 #define SENSES_PORT 4000
 #define retry_wait 1000
 #define LAGTIME 100
