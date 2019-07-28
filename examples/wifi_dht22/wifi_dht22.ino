@@ -6,7 +6,7 @@ const char *passw = "your-wifi-password";
 const char *userid = "your-senses-user-id";
 const char *key = "your-registered-key";
 
-#define DHTPIN D4
+#define DHTPIN 4
 #define DHTTYPE DHT22
 DHT dht(DHTPIN, DHTTYPE);
 
