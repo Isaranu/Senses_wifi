@@ -10,8 +10,10 @@ class Senses_wifi{
     String connect(const char *ssid, const char *passw, const char *userid, const char *key);
     String send(int slotnum, float data);
     String MACtoString(uint8_t* macAddress);
+    String getDigitalControl(int controlport);
     const char *_ssid, *_passw;
     const char *_userid, *_key;
+    String _controlresponse;
 
   private:
     int _slotnum;
@@ -19,6 +21,7 @@ class Senses_wifi{
     String _path;
     String _response;
     String _wfMcaddr;
+    int _controlport;
 };
 
 #endif
